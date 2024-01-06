@@ -1,7 +1,9 @@
-from list_2_5 import f1, f2, f3, f4, f5, f6
-from list_3_7 import f7, f8, f9, f10, f11, f12, f13, f14
+from art import tprint
 
-# На соседних листах лежит решения. модуль 2.5 был для самопроверки
-# По необходимости можно выводить результат от f7 до f14
+# from list_2_5 import f1, f2, f3, f4, f5, f6
+from module5.task_5 import f5
 
-f14()
+tprint("Skillbox")
+
+# По необходимости можно выводить название функции для проверки результата
+f5()

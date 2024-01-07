@@ -1,9 +1,9 @@
 from art import tprint
 
-from module6.task_2 import f2
+from module6.task_3 import f3
 
 tprint("Skillbox")
 
 # По необходимости можно выводить название функции для проверки результата
 
-f2()
+f3()

@@ -5,7 +5,7 @@ from module6.task_2 import f2
 from module6.task_3 import f3
 from module6.task_4 import f4
 from module6.task_5 import f5
-
+from module6.task_6 import f6
 
 tprint("Skillbox")
 
@@ -15,6 +15,6 @@ tprint("Skillbox")
 # f2()
 # f3()
 # f4()
-f5()
-
+# f5()
+f6()
 

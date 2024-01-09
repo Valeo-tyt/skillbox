@@ -3,6 +3,8 @@ def f7():
 
     if time < 8 or time >= 22 or (14 <= time < 15) or (10 <= time < 12) or (18 <= time < 20):
         print("Посылку получить нельзя")
+    else:
+        print("Посылку получить можно")
 
 
 def f8():
@@ -10,3 +12,5 @@ def f8():
 
     if (8 <= time < 10) or (12 <= time < 14) or (15 <= time < 18) or (20 <= time < 22):
         print("Посылку получить можно")
+    else:
+        print("Посылку получить нельзя")

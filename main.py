@@ -1,23 +1,14 @@
 from art import tprint
 
-from module6.task_1 import f1
-from module6.task_2 import f2
-from module6.task_3 import f3
-from module6.task_4 import f4
-from module6.task_5 import f5
-from module6.task_6 import f6
-from module6.task_7 import f7
-from module6.task_8 import f8
+from src.modules.task_2 import *
+from src.modules.task_3 import *
+from src.modules.task_4 import *
+from src.modules.task_5 import *
+from src.modules.task_6 import *
 
-tprint("Skillbox")
+# Для проверки результата вызывайте функцию из файла модуля
 
-# По необходимости можно выводить название функции для проверки результата
-
-# f1()
-# f2()
-# f3()
-# f4()
-# f5()
-# f6()
-# f7()
-f8()
+if __name__ == "__main__":
+    tprint("Skillbox")
+    f6_8()
+    pass

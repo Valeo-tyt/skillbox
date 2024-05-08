@@ -1,4 +1,4 @@
-def f7_1():
+def f7_1() -> None:
     condition_number = 0
     for count in range(10):
         number = int(input('Введите число для анализа:'))
@@ -7,7 +7,7 @@ def f7_1():
     print("Положительных чётных чисел -", condition_number)
 
 
-def f7_2():
+def f7_2() -> None:
     total_salary = 0
     for mount in range(12):
         salary = int(input("Введите зарплату за текущий месяц:"))
@@ -16,7 +16,7 @@ def f7_2():
     print("Средняя зарплата в месяц:", average_salary)
 
 
-def f7_3():
+def f7_3() -> None:
     factorial = 1
     number = int(input("Введите число:"))
     for count in range(1, (number + 1)):
@@ -24,7 +24,7 @@ def f7_3():
     print(factorial)
 
 
-def f7_4():
+def f7_4() -> None:
     very_good, good, normal = 0, 0, 0
     total_users = int(input("Введите кол-во учеников в классе:"))
     for count in range(total_users):
@@ -40,7 +40,7 @@ def f7_4():
     print(f"В классе отличников - {very_good}, хорошистов - {good}, троечников - {normal}")
 
 
-def f7_5():
+def f7_5() -> None:
     number_a = int(input("Введите первое число:"))
     number_b = int(input("Введите второе число:"))
     result, index = 0, 0
@@ -52,7 +52,7 @@ def f7_5():
     print(f"Среднее арифметическое чисел из отрезка {number_a} и {number_b} кратных трём равно", output)
 
 
-def f7_6():
+def f7_6() -> None:
     for num in range(10, 100):
         digit1 = num // 10
         digit2 = num % 10
@@ -62,7 +62,7 @@ def f7_6():
             print(num)
 
 
-def f7_7():
+def f7_7() -> None:
     total_cards = int(input("Введите количество карточек:"))
     presence_sheet: list = []
     for index in range(1, total_cards):

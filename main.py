@@ -12,7 +12,7 @@ from src.modules.task_7 import *
 if __name__ == "__main__":
     tprint("Skillbox")
     try:
-        f7_1()
+        f7_4()
     except KeyboardInterrupt:
         pass
     except Exception as e:

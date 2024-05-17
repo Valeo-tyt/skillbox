@@ -37,7 +37,13 @@ def f7_4() -> None:
             very_good += 1
         else:
             print("Противоречит условию")
-    print(f"В классе отличников - {very_good}, хорошистов - {good}, троечников - {normal}")
+    if normal < very_good > good:
+        output = "отличников"
+    elif normal < good > very_good:
+        output = "хорошистов"
+    else:
+        output = "троечников"
+    print(f"В классе больше {output}")
 
 
 def f7_5() -> None:
